@@ -33,7 +33,7 @@ namespace OpenWeather
 
                     // Per API guidelines, only call once per location every 10 minutes
                     // In a real stream or app, it's highly unadvised to do this
-                    Thread.Sleep(180000);
+                    Thread.Sleep(600000);
                 }
 
                 producer.Flush();
